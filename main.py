@@ -5,10 +5,6 @@ from commands.services import show_services
 from commands.logs import show_logs
 from commands.ports import show_ports
 
-
-# serverfox is a CLI tool used to monitor and manage Linux servers. in its current stage, it can monitor a local machine
-# later, it will support ssh access
-
 def show_help():
     print("Serverfox commands:")
     print("  health    Show a system health snapshot")
