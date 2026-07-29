@@ -15,6 +15,7 @@ def show_help():
     print("  net      Connectivity info")
     print("  services Check running services")
     print("  logs     View logs for a specific service")
+    print("  ports    View listening tcp ports")
 
 def main():
     if len(sys.argv) <= 1:
