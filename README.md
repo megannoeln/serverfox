@@ -2,7 +2,7 @@
 
 Serverfox is a Python CLI tool for Linux server administration, monitoring, and operational workflows. In its current stage, it works on a local machine. In the near future, it will act as an ssh client for remote server management.
 
-The project is intentionally small and iterative. Instead of trying to replace every Linux command, Serverfox focuses on useful summaries and checks that help answer common server questions quickly.
+The project is intentionally small and iterative. Instead of trying to replace every Linux command, I've focused on useful summaries and checks that help answer common server questions quickly.
 
 ## Current commands
 
