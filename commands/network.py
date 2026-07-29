@@ -24,7 +24,7 @@ def can_reach_internet():
 # print network info
 def show_network_info():
     ip_addr = get_local_ip()
-    internet_status = "yes" if can_reach_internet() else "no"
+    internet_status = "reachable" if can_reach_internet() else "unreachable"
 
     print(f"Local IPv4: {ip_addr}")
-    print(f"Connected to internet: {internet_status}")
+    print(f"Internet: {internet_status}")

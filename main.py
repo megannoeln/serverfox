@@ -10,12 +10,12 @@ from commands.ports import show_ports
 # later, it will support ssh access
 
 def show_help():
-    print("Commands:")
-    print("  health   Live system health snapshot")
-    print("  net      Connectivity info")
-    print("  services Check running services")
-    print("  logs     View logs for a specific service")
-    print("  ports    View listening tcp ports")
+    print("Serverfox commands:")
+    print("  health    Show a system health snapshot")
+    print("  net       Show basic network connectivity info")
+    print("  services  Check one or more systemd services")
+    print("  logs      Show recent logs for one service")
+    print("  ports     Show listening TCP ports")
 
 def main():
     if len(sys.argv) <= 1:

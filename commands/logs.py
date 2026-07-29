@@ -14,7 +14,7 @@ def get_logs(service):
 
 def show_logs(service):
     if not service:
-        print("No service given. Enter logs command followed by the service name.")
+        print("No service given. Usage: logs <service>")
         return 
     
     logs = get_logs(service)

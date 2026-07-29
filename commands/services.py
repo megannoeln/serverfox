@@ -16,7 +16,7 @@ def get_service_status(service):
 # loop and print service status
 def show_services(services):
     if not services:
-        print("No services given. Enter services command followed by the names of the services you'd like to check")
+        print("No services given. Usage: services <service1> [service2 ...]")
         return 
 
     for service in services:

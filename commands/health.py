@@ -75,11 +75,12 @@ def show_health():
     print("---------------------")
     print(f"CPU: {cpu_usage}%")
     print(f"Load (1m, 5m, 15m): {load_average}")
-    print(f"RAM: {memory_usage}% used, {round(available_memory, 2)}gb free of {round(total_memory, 2)}gb")
-    print(f"Disk: {disk_usage_percent}% used, {round(free_disk_space, 2)}gb free of {round(total_disk_space, 2)}gb")
+    print(f"RAM: {memory_usage}% used, {round(available_memory, 2)} GB free of {round(total_memory, 2)} GB")
+    print(f"Disk: {disk_usage_percent}% used, {round(free_disk_space, 2)} GB free of {round(total_disk_space, 2)} GB")
     print(f"Uptime: {uptime}")
     print("---------------------")
     if cause:
-        print(f"Status: {status}, Cause: {cause}")
+        print(f"Status: {status}")
+        print(f"Cause: {cause}")
     else:
         print(f"Status: {status}")
